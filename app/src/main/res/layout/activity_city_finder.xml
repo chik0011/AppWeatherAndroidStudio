@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#BEDBD9"
+    tools:context=".cityFinder">
+
+    <ImageView
+        android:layout_width="35dp"
+        android:layout_height="41dp"
+        android:id="@+id/backButton"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="15dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="23dp"
+        android:layout_marginEnd="288dp"
+        android:layout_marginBottom="172dp"
+        android:src="@drawable/back" />
+
+    <!--    <EditText-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="40dp"-->
+<!--        android:layout_centerInParent="true"-->
+<!--        android:layout_marginLeft="30dp"-->
+<!--        android:hint="Entrer le nom de votre ville"-->
+<!--        android:textColor="@color/black"-->
+<!--        android:imeOptions="actionGo"-->
+<!--        android:id="@+id/searchCity"-->
+<!--        android:inputType="textAutoCorrect"-->
+<!--        android:gravity="center_horizontal|center_vertical"-->
+<!--        android:layout_marginRight="30dp"-->
+<!--        android:background="@drawable/edittextdesign"/>-->
+
+
+    <ImageView
+        android:layout_width="272dp"
+        android:layout_height="158dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="58dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="78dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginBottom="39dp"
+        android:src="@drawable/openweather" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="45dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="275dp"
+        android:text="Données météorologiques"
+        android:textColor="#FFFFFF"
+        android:textSize="25sp"
+        android:textStyle="bold"></TextView>
+
+    <TextView
+        android:layout_width="329dp"
+        android:layout_height="165dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="30dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="330dp"
+        android:text="Nous fournissons des produits météorologiques hautement reconnaissables qui facilitent le travail avec les données météorologiques. Nous travaillons avec des millions de développeurs 24 heures sur 24 et pensons que ces avantages pourraient convenir à la plupart des applications, jusqu'aux systèmes d'entreprise complexes ."
+        android:textColor="#FFFFFF"
+        android:textSize="16sp"></TextView>
+
+    <TextView
+        android:layout_width="327dp"
+        android:layout_height="104dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="26dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="520dp"
+        android:gravity="right"
+        android:text="Nos produits météorologiques sont accessibles via des API rapides et fiables qui respectent les normes de l'industrie et sont compatibles avec différents types de systèmes d'entreprise."
+        android:textColor="#FFFFFF"
+        android:textSize="16sp"></TextView>
+</RelativeLayout>
+
